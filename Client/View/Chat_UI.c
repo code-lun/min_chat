@@ -1,10 +1,8 @@
 /*************************************************************************
 	>    File Name: Chat_UI.c
-	>       Author: fujie
-	>         Mail: fujie.me@qq.com
-	> Created Time: 2017年08月16日 星期三 08时05分47秒
+	>       Author: lun
+	> Created Time: 2024年06月12日
  ************************************************************************/
-
 #include<stdio.h>
 #include<string.h>
 #include<unistd.h>

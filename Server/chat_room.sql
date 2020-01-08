@@ -21,7 +21,7 @@ CREATE TABLE `friends` (
   `state` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-CREATE TABLE `groups` (
+CREATE TABLE `groups_` (
   `gid` int(11) NOT NULL,
   `name` varchar(20) NOT NULL,
   `owner` int(11) NOT NULL COMMENT '群主uid',
@@ -56,7 +56,7 @@ ALTER TABLE `account`
 ALTER TABLE `friends`
   ADD PRIMARY KEY (`uid`,`fuid`);
 
-ALTER TABLE `groups`
+ALTER TABLE `groups_`
   ADD PRIMARY KEY (`gid`);
 
 ALTER TABLE `group_member`
@@ -66,6 +66,6 @@ ALTER TABLE `group_member`
 ALTER TABLE `account`
   MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
-ALTER TABLE `groups`
+ALTER TABLE `groups_`
   MODIFY `gid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;

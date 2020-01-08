@@ -1,10 +1,8 @@
 /*************************************************************************
 	>    File Name: Main_UI.h
-	>       Author: fujie
-	>         Mail: fujie.me@qq.com
-	> Created Time: 2017年08月11日 星期五 09时16分47秒
+	>       Author: lun
+	> Created Time: 2024年06月12日
  ************************************************************************/
-
 #ifndef _MAIN_UI_H
 #define _MAIN_UI_H
 

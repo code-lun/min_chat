@@ -1,10 +1,8 @@
 /*************************************************************************
 	>    File Name: Group_Srv.c
-	>       Author: fujie
-	>         Mail: fujie.me@qq.com
-	> Created Time: 2017年09月02日 星期六 13时52分39秒
+	>       Author: lun
+	> Created Time: 2024年06月12日
  ************************************************************************/
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
