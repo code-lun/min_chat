@@ -1,0 +1,7 @@
+{
+	"port":	1314,
+	"host":	"localhost",
+	"user":	"root",
+	"pass":	"passwd",
+	"database":	"chat_room"
+}
